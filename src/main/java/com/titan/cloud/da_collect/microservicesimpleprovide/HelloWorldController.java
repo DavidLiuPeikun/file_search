@@ -19,7 +19,7 @@ public class HelloWorldController {
 	@RequestMapping("/personnel")
 	public String index() {
 		count();
-		return "Hello personnel file";
+		return "Hello file search";
 	}
 
 	private void count() {
